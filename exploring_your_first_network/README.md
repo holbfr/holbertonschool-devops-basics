@@ -11,6 +11,8 @@ The project focuses on using existing Linux networking tools, not on advanced Ba
 
 The correction environment is volatile. Interface names, IP addresses, MAC addresses, routes, neighbor entries, and listening ports may change. Your scripts must inspect the current environment and must not contain hardcoded network values.
 
+---
+
 ## Learning Objectives
 
 By the end of this project, students should be able to:
@@ -25,6 +27,9 @@ By the end of this project, students should be able to:
 - Select suitable Linux networking utilities and options from official documentation.
 - Explain the roles of loopback, private addressing, IPv6, default routes, hostname resolution, neighbor discovery, and listening sockets.
 
+
+---
+
 ## Resources
 
 ### Required
@@ -37,6 +42,8 @@ By the end of this project, students should be able to:
 - **[Linux `ping` manual page](https://man7.org/linux/man-pages/man8/ping.8.html)** - Reference for ICMP reachability tests.
 - **[Linux `getent` manual page](https://man7.org/linux/man-pages/man1/getent.1.html)** - Reference for name-service database lookups.
 - **[GNU System Databases and Name Service Switch](https://doc.guix.gnu.org/libc/latest/en/html_node/Name-Service-Switch.html)** - Context for system hostname resolution and the Name Service Switch.
+
+---
 
 ## General Requirements
 
